@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D283EF8CB7F94F829CB0C3EDB9093D /* Pods-SmartSpeakerDetector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B33A0CFFC9E8A582BE3B53C77954C7 /* Pods-SmartSpeakerDetector_Tests-dummy.m */; };
+		56FB2EE91A54732EDB36C157B83CC191 /* SmartSpeakerDetector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 048FC19FE57E57DA1F15F543860100E0 /* SmartSpeakerDetector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		717BAA3C80FBCBBC79CD3C01EE66C7E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8F65F6829A7ABACE03A4A4DF60252434 /* SmartSpeakerDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7106117DD371A29349BF22110612B9 /* SmartSpeakerDetector-dummy.m */; };
+		B6A9C4F071EF1F468960C74461C9AEE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C1795F3720BF48E400962097 /* SmartSpeakerDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1795F3520BF485800962097 /* SmartSpeakerDetector.swift */; };
+		C54DC05A9CF4D17ED1C90CDEBED8FB5A /* Pods-SmartSpeakerDetector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C65483BA8304120ADB8A8666CE1560 /* Pods-SmartSpeakerDetector_Example-dummy.m */; };
+		E578EC8BF3F29912FD175924B4F784C1 /* Pods-SmartSpeakerDetector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1AC1A39B60D7E37D2B189E735843F2 /* Pods-SmartSpeakerDetector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7F60E9F8C2C2C4980D1DBA9347AFE8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F1C5954EEF572323BD1AD275047487F3 /* Pods-SmartSpeakerDetector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DED7F0F9B30EE0A70FD27CE37339B5D /* Pods-SmartSpeakerDetector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74E026C038FA25E9E1EB3412FA199DB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7CFBDBC0B91E02407E487F725CCCB98;
+			remoteInfo = SmartSpeakerDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048FC19FE57E57DA1F15F543860100E0 /* SmartSpeakerDetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartSpeakerDetector-umbrella.h"; sourceTree = "<group>"; };
+		0A9C6FA1D9E572EAE6E25FB8AE09B9EA /* Pods-SmartSpeakerDetector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartSpeakerDetector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A7106117DD371A29349BF22110612B9 /* SmartSpeakerDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmartSpeakerDetector-dummy.m"; sourceTree = "<group>"; };
+		2643CB269A873F674A63710A7EDD91B9 /* Pods-SmartSpeakerDetector_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartSpeakerDetector_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2FC04D7657940E86E14F8F68C3DA0CB6 /* Pods-SmartSpeakerDetector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartSpeakerDetector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E424CE0541876982A54B486CD47BB4B /* SmartSpeakerDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartSpeakerDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8F9C34A62EFC1664C7E1201DD5B5AA /* SmartSpeakerDetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SmartSpeakerDetector.modulemap; sourceTree = "<group>"; };
+		4C1AC1A39B60D7E37D2B189E735843F2 /* Pods-SmartSpeakerDetector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartSpeakerDetector_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4D3DF2D411AFCF8B1A3F47DAE587F569 /* Pods-SmartSpeakerDetector_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartSpeakerDetector_Tests-resources.sh"; sourceTree = "<group>"; };
+		5843BB63C55F07D68C6CCF27E5F73900 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DED7F0F9B30EE0A70FD27CE37339B5D /* Pods-SmartSpeakerDetector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartSpeakerDetector_Example-umbrella.h"; sourceTree = "<group>"; };
+		5FB44F1D89E897DF96F8B6B6CE06A8D4 /* Pods_SmartSpeakerDetector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartSpeakerDetector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C65483BA8304120ADB8A8666CE1560 /* Pods-SmartSpeakerDetector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartSpeakerDetector_Example-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		767B776DBFC46311F678145FCB3AFCAF /* SmartSpeakerDetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartSpeakerDetector.xcconfig; sourceTree = "<group>"; };
+		83C0AFAE0A5D82643612F11C178A52DF /* Pods-SmartSpeakerDetector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartSpeakerDetector_Example-frameworks.sh"; sourceTree = "<group>"; };
+		84295223EF9034D73AF8AEA0E8E6B6E4 /* Pods_SmartSpeakerDetector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartSpeakerDetector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		911BBE2C646EF3F1D7AD4BC6E38BD269 /* Pods-SmartSpeakerDetector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartSpeakerDetector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A953B78AC05237EA20C3817E33B0D30 /* Pods-SmartSpeakerDetector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartSpeakerDetector_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9C3EC0F6C9E55FEBABEEB24D8A7908A1 /* Pods-SmartSpeakerDetector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartSpeakerDetector_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B545AA59D361879EC8619B061DE226D4 /* Pods-SmartSpeakerDetector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartSpeakerDetector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B56E8BDF5DE76E4BB78A68AA6E7DF092 /* Pods-SmartSpeakerDetector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartSpeakerDetector_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B5B4FE7C7403620935E6752CAD3F6987 /* Pods-SmartSpeakerDetector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartSpeakerDetector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1795F3520BF485800962097 /* SmartSpeakerDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSpeakerDetector.swift; sourceTree = "<group>"; };
+		C6B33A0CFFC9E8A582BE3B53C77954C7 /* Pods-SmartSpeakerDetector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartSpeakerDetector_Tests-dummy.m"; sourceTree = "<group>"; };
+		C777AC472DE316A5BF6AD1F64DD711A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A9B0F6CFBEDE0EB6EDE692F80E8504 /* Pods-SmartSpeakerDetector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SmartSpeakerDetector_Tests.modulemap"; sourceTree = "<group>"; };
+		E3CDB553B4BD93576398B0D60FD20C28 /* Pods-SmartSpeakerDetector_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartSpeakerDetector_Example-resources.sh"; sourceTree = "<group>"; };
+		E4C2C168F6EF47F29B6ED36DC5ACF22B /* Pods-SmartSpeakerDetector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SmartSpeakerDetector_Example.modulemap"; sourceTree = "<group>"; };
+		EAEEECC148FAEA973004B2EB9BE045E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0EE4B6A82FCAD172FE75E0DB62A4764 /* SmartSpeakerDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartSpeakerDetector-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2012CC316678625E766A30EEEE41CB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A9C4F071EF1F468960C74461C9AEE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484B3CCE9ECDA54A71B30CB2FD9FCA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717BAA3C80FBCBBC79CD3C01EE66C7E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C6CC6614BFE91657421A6AC2293DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F60E9F8C2C2C4980D1DBA9347AFE8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52275B409D3DE5AF4FA56142E2161BF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C777AC472DE316A5BF6AD1F64DD711A1 /* Info.plist */,
+				4A8F9C34A62EFC1664C7E1201DD5B5AA /* SmartSpeakerDetector.modulemap */,
+				767B776DBFC46311F678145FCB3AFCAF /* SmartSpeakerDetector.xcconfig */,
+				1A7106117DD371A29349BF22110612B9 /* SmartSpeakerDetector-dummy.m */,
+				F0EE4B6A82FCAD172FE75E0DB62A4764 /* SmartSpeakerDetector-prefix.pch */,
+				048FC19FE57E57DA1F15F543860100E0 /* SmartSpeakerDetector-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SmartSpeakerDetector";
+			sourceTree = "<group>";
+		};
+		6791CCFD2D9DEBDDDA171E5B14E84B27 /* Pods-SmartSpeakerDetector_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EAEEECC148FAEA973004B2EB9BE045E7 /* Info.plist */,
+				D2A9B0F6CFBEDE0EB6EDE692F80E8504 /* Pods-SmartSpeakerDetector_Tests.modulemap */,
+				911BBE2C646EF3F1D7AD4BC6E38BD269 /* Pods-SmartSpeakerDetector_Tests-acknowledgements.markdown */,
+				2FC04D7657940E86E14F8F68C3DA0CB6 /* Pods-SmartSpeakerDetector_Tests-acknowledgements.plist */,
+				C6B33A0CFFC9E8A582BE3B53C77954C7 /* Pods-SmartSpeakerDetector_Tests-dummy.m */,
+				2643CB269A873F674A63710A7EDD91B9 /* Pods-SmartSpeakerDetector_Tests-frameworks.sh */,
+				4D3DF2D411AFCF8B1A3F47DAE587F569 /* Pods-SmartSpeakerDetector_Tests-resources.sh */,
+				4C1AC1A39B60D7E37D2B189E735843F2 /* Pods-SmartSpeakerDetector_Tests-umbrella.h */,
+				B5B4FE7C7403620935E6752CAD3F6987 /* Pods-SmartSpeakerDetector_Tests.debug.xcconfig */,
+				B56E8BDF5DE76E4BB78A68AA6E7DF092 /* Pods-SmartSpeakerDetector_Tests.release.xcconfig */,
+			);
+			name = "Pods-SmartSpeakerDetector_Tests";
+			path = "Target Support Files/Pods-SmartSpeakerDetector_Tests";
+			sourceTree = "<group>";
+		};
+		7536415224636D087F509FE5EA23B175 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E9E85C27A8E886ABACA1372C7FD27BC /* Pods-SmartSpeakerDetector_Example */,
+				6791CCFD2D9DEBDDDA171E5B14E84B27 /* Pods-SmartSpeakerDetector_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DBCE2AB8E25C27E348A4A2A0EA8344C9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D1EAA4EE61C410450CED0CA5840C7226 /* Products */,
+				7536415224636D087F509FE5EA23B175 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9E85C27A8E886ABACA1372C7FD27BC /* Pods-SmartSpeakerDetector_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5843BB63C55F07D68C6CCF27E5F73900 /* Info.plist */,
+				E4C2C168F6EF47F29B6ED36DC5ACF22B /* Pods-SmartSpeakerDetector_Example.modulemap */,
+				B545AA59D361879EC8619B061DE226D4 /* Pods-SmartSpeakerDetector_Example-acknowledgements.markdown */,
+				0A9C6FA1D9E572EAE6E25FB8AE09B9EA /* Pods-SmartSpeakerDetector_Example-acknowledgements.plist */,
+				63C65483BA8304120ADB8A8666CE1560 /* Pods-SmartSpeakerDetector_Example-dummy.m */,
+				83C0AFAE0A5D82643612F11C178A52DF /* Pods-SmartSpeakerDetector_Example-frameworks.sh */,
+				E3CDB553B4BD93576398B0D60FD20C28 /* Pods-SmartSpeakerDetector_Example-resources.sh */,
+				5DED7F0F9B30EE0A70FD27CE37339B5D /* Pods-SmartSpeakerDetector_Example-umbrella.h */,
+				9A953B78AC05237EA20C3817E33B0D30 /* Pods-SmartSpeakerDetector_Example.debug.xcconfig */,
+				9C3EC0F6C9E55FEBABEEB24D8A7908A1 /* Pods-SmartSpeakerDetector_Example.release.xcconfig */,
+			);
+			name = "Pods-SmartSpeakerDetector_Example";
+			path = "Target Support Files/Pods-SmartSpeakerDetector_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCDC406D11E98894897A0F6BEFEE5AE5 /* SmartSpeakerDetector */ = {
+			isa = PBXGroup;
+			children = (
+				C1795F3520BF485800962097 /* SmartSpeakerDetector.swift */,
+				52275B409D3DE5AF4FA56142E2161BF1 /* Support Files */,
+			);
+			name = SmartSpeakerDetector;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D1EAA4EE61C410450CED0CA5840C7226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FB44F1D89E897DF96F8B6B6CE06A8D4 /* Pods_SmartSpeakerDetector_Example.framework */,
+				84295223EF9034D73AF8AEA0E8E6B6E4 /* Pods_SmartSpeakerDetector_Tests.framework */,
+				3E424CE0541876982A54B486CD47BB4B /* SmartSpeakerDetector.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DBCE2AB8E25C27E348A4A2A0EA8344C9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCDC406D11E98894897A0F6BEFEE5AE5 /* SmartSpeakerDetector */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B6263E6B8E70306D0A5129F79C3AD571 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C5954EEF572323BD1AD275047487F3 /* Pods-SmartSpeakerDetector_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72DB1926CCB5E48028752D642AF2161 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FB2EE91A54732EDB36C157B83CC191 /* SmartSpeakerDetector-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FA5A6E442038F96B52CB7D8BBD2130 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E578EC8BF3F29912FD175924B4F784C1 /* Pods-SmartSpeakerDetector_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		989C30C947E41BE6B5D05105178351F0 /* Pods-SmartSpeakerDetector_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55DC6BD007B88E814A263B168DCAE65 /* Build configuration list for PBXNativeTarget "Pods-SmartSpeakerDetector_Example" */;
+			buildPhases = (
+				F69CBE703385CC044DB3CFC0220D80D3 /* Sources */,
+				59C6CC6614BFE91657421A6AC2293DDF /* Frameworks */,
+				B6263E6B8E70306D0A5129F79C3AD571 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB3CAE9879F3F3E9D74DEF93C093446 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartSpeakerDetector_Example";
+			productName = "Pods-SmartSpeakerDetector_Example";
+			productReference = 5FB44F1D89E897DF96F8B6B6CE06A8D4 /* Pods_SmartSpeakerDetector_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EEB228E9253AF01161223B088631A64 /* Pods-SmartSpeakerDetector_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7162136F7B1E3496586292F839628032 /* Build configuration list for PBXNativeTarget "Pods-SmartSpeakerDetector_Tests" */;
+			buildPhases = (
+				B5F1A876774B5A5733B5AC6FA599845C /* Sources */,
+				2012CC316678625E766A30EEEE41CB70 /* Frameworks */,
+				F1FA5A6E442038F96B52CB7D8BBD2130 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartSpeakerDetector_Tests";
+			productName = "Pods-SmartSpeakerDetector_Tests";
+			productReference = 84295223EF9034D73AF8AEA0E8E6B6E4 /* Pods_SmartSpeakerDetector_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7CFBDBC0B91E02407E487F725CCCB98 /* SmartSpeakerDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7145F291F72557D3A90B3001EA55C9D0 /* Build configuration list for PBXNativeTarget "SmartSpeakerDetector" */;
+			buildPhases = (
+				22CFA629F71BDDDBA8058E2ACEF70170 /* Sources */,
+				484B3CCE9ECDA54A71B30CB2FD9FCA91 /* Frameworks */,
+				B72DB1926CCB5E48028752D642AF2161 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartSpeakerDetector;
+			productName = SmartSpeakerDetector;
+			productReference = 3E424CE0541876982A54B486CD47BB4B /* SmartSpeakerDetector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					989C30C947E41BE6B5D05105178351F0 = {
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D1EAA4EE61C410450CED0CA5840C7226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				989C30C947E41BE6B5D05105178351F0 /* Pods-SmartSpeakerDetector_Example */,
+				9EEB228E9253AF01161223B088631A64 /* Pods-SmartSpeakerDetector_Tests */,
+				B7CFBDBC0B91E02407E487F725CCCB98 /* SmartSpeakerDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22CFA629F71BDDDBA8058E2ACEF70170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F65F6829A7ABACE03A4A4DF60252434 /* SmartSpeakerDetector-dummy.m in Sources */,
+				C1795F3720BF48E400962097 /* SmartSpeakerDetector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F1A876774B5A5733B5AC6FA599845C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D283EF8CB7F94F829CB0C3EDB9093D /* Pods-SmartSpeakerDetector_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69CBE703385CC044DB3CFC0220D80D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54DC05A9CF4D17ED1C90CDEBED8FB5A /* Pods-SmartSpeakerDetector_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DB3CAE9879F3F3E9D74DEF93C093446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartSpeakerDetector;
+			target = B7CFBDBC0B91E02407E487F725CCCB98 /* SmartSpeakerDetector */;
+			targetProxy = 74E026C038FA25E9E1EB3412FA199DB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20BFCB9D6BFD9183852082AF5C6AFFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767B776DBFC46311F678145FCB3AFCAF /* SmartSpeakerDetector.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartSpeakerDetector/SmartSpeakerDetector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartSpeakerDetector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmartSpeakerDetector/SmartSpeakerDetector.modulemap";
+				PRODUCT_NAME = SmartSpeakerDetector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F23F9FC32F92F1470924E5D050D53F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A953B78AC05237EA20C3817E33B0D30 /* Pods-SmartSpeakerDetector_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartSpeakerDetector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartSpeakerDetector_Example/Pods-SmartSpeakerDetector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartSpeakerDetector_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		561AAA7F6DF69C0754F1915F15F754B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56E8BDF5DE76E4BB78A68AA6E7DF092 /* Pods-SmartSpeakerDetector_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartSpeakerDetector_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartSpeakerDetector_Tests/Pods-SmartSpeakerDetector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartSpeakerDetector_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9415F0D97DC5C86892AC9FEC1E02C7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B4FE7C7403620935E6752CAD3F6987 /* Pods-SmartSpeakerDetector_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartSpeakerDetector_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartSpeakerDetector_Tests/Pods-SmartSpeakerDetector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartSpeakerDetector_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EEA6828553371D1E195F5657336A44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767B776DBFC46311F678145FCB3AFCAF /* SmartSpeakerDetector.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartSpeakerDetector/SmartSpeakerDetector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartSpeakerDetector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmartSpeakerDetector/SmartSpeakerDetector.modulemap";
+				PRODUCT_NAME = SmartSpeakerDetector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C47B26A12858E35E2447EA87B6D2CE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3EC0F6C9E55FEBABEEB24D8A7908A1 /* Pods-SmartSpeakerDetector_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartSpeakerDetector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartSpeakerDetector_Example/Pods-SmartSpeakerDetector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartSpeakerDetector_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7145F291F72557D3A90B3001EA55C9D0 /* Build configuration list for PBXNativeTarget "SmartSpeakerDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BFCB9D6BFD9183852082AF5C6AFFE9 /* Debug */,
+				9EEA6828553371D1E195F5657336A44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7162136F7B1E3496586292F839628032 /* Build configuration list for PBXNativeTarget "Pods-SmartSpeakerDetector_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9415F0D97DC5C86892AC9FEC1E02C7B1 /* Debug */,
+				561AAA7F6DF69C0754F1915F15F754B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55DC6BD007B88E814A263B168DCAE65 /* Build configuration list for PBXNativeTarget "Pods-SmartSpeakerDetector_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F23F9FC32F92F1470924E5D050D53F9 /* Debug */,
+				C47B26A12858E35E2447EA87B6D2CE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

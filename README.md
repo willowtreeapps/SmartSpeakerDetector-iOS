@@ -9,7 +9,14 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Features
+
+Library to detect smart speaker devices on local network. 
+Library currently detects Google Home devices using arp table lookup. Since Google Home uses Cast SDK, detection should be reliable. Amazon Alexa support is coming up soon.
+
 ## Requirements
+
+iOS 10.0 or later
 
 ## Installation
 
@@ -20,10 +27,6 @@ it, simply add the following line to your Podfile:
 pod 'SmartSpeakerDetector'
 ```
 
-## Author
-
-Max Tkach, molotov2k@gmail.com
-
 ## License
 
-SmartSpeakerDetector is available under the MIT license. See the LICENSE file for more info.
+SmartSpeakerDetector is available under the Apache license. See the LICENSE file for more info.
