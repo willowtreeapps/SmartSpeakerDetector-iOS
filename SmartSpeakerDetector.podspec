@@ -18,17 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Smart Speaker Detector allows to detect smart speaker devices on local network.
+Current version only supoorts Google Home, but Amazon Alexa detection coming soon.
                        DESC
 
-  s.homepage         = 'https://github.com/Max Tkach/SmartSpeakerDetector'
+  s.homepage         = 'https://github.com/willowtreeapps/SmartSpeakerDetector-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Max Tkach' => 'molotov2k@gmail.com' }
-  s.source           = { :git => 'https://github.com/Max Tkach/SmartSpeakerDetector.git', :tag => s.version.to_s }
+  s.license          = { :type => 'APACHE', :file => 'LICENSE' }
+  s.author           = { 'Luke Tomlinson' => 'luke.tomlinson@willowtreeapps.com' }
+  s.source           = { :git => 'https://github.com/willowtreeapps/SmartSpeakerDetector-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'SmartSpeakerDetector/Classes/**/*'
   
