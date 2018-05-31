@@ -13,13 +13,13 @@ private extension String {
     static let localDomain = "local."
 }
 
-class SmartSpeakerDetector: NSObject {
+public class SmartSpeakerDetector: NSObject {
     private let serviceBrowser = NetServiceBrowser()
     private var castableDevices: [NetService] = []
     private var onDetect: ((Bool) -> Void)?
     private weak var timeoutTimer: Timer?
     
-    func detectGoogleHome(_ completion: @escaping (Bool) -> Void) {
+    public func detectGoogleHome(_ completion: @escaping (Bool) -> Void) {
         onDetect = completion
         serviceBrowser.delegate = self
         serviceBrowser.searchForServices(ofType: .googleService, inDomain: .localDomain)
@@ -29,7 +29,7 @@ class SmartSpeakerDetector: NSObject {
         }
     }
     
-    func stop(success: Bool) {
+    public func stop(success: Bool) {
         serviceBrowser.stop()
         timeoutTimer?.invalidate()
         castableDevices = []
@@ -38,7 +38,6 @@ class SmartSpeakerDetector: NSObject {
     
     private func homeDetected() {
         stop(success: true)
-        
     }
     
     private func noHomeDetected() {
@@ -47,19 +46,19 @@ class SmartSpeakerDetector: NSObject {
 }
 
 extension SmartSpeakerDetector: NetServiceBrowserDelegate {
-    func netServiceBrowser(_ browser: NetServiceBrowser, didFind service: NetService, moreComing: Bool) {
+    public func netServiceBrowser(_ browser: NetServiceBrowser, didFind service: NetService, moreComing: Bool) {
         castableDevices.append(service)
         service.delegate = self
         service.resolve(withTimeout: 5.0)
     }
     
-    func netServiceBrowser(_ browser: NetServiceBrowser, didNotSearch errorDict: [String : NSNumber]) {
+    public func netServiceBrowser(_ browser: NetServiceBrowser, didNotSearch errorDict: [String : NSNumber]) {
         onDetect?(false)
     }
 }
 
 extension SmartSpeakerDetector: NetServiceDelegate {
-    func netServiceDidResolveAddress(_ sender: NetService) {
+    public func netServiceDidResolveAddress(_ sender: NetService) {
         if let txtRecord = sender.txtRecordData(), let record = String(data: txtRecord, encoding: .ascii), record.contains("Google Home") {
             homeDetected()
         }
@@ -67,7 +66,7 @@ extension SmartSpeakerDetector: NetServiceDelegate {
         castableDevices = castableDevices.filter { $0 !== sender }
     }
     
-    func netService(_ sender: NetService, didNotResolve errorDict: [String : NSNumber]) {
+    public func netService(_ sender: NetService, didNotResolve errorDict: [String : NSNumber]) {
         castableDevices = castableDevices.filter { $0 !== sender }
     }
 }
