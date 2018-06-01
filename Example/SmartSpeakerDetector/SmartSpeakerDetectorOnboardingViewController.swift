@@ -163,7 +163,6 @@ class SmartSpeakerDetectorOnboardingViewController: UIViewController {
             }
 
             let animations = {
-                print("starting animation index: \(index)")
                 if index == self.spacingConstraints.count - 3 {
                     self.zeroOneConstraint.constant -= 80
                     self.view1.alpha = 0.0
