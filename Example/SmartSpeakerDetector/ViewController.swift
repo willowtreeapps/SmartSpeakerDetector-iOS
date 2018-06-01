@@ -20,6 +20,7 @@ class LightNavigationController: UINavigationController {
 class ViewController: UIViewController, SmartSpeakerDetectorDemoing {
     
     @IBOutlet var collectionView: UICollectionView!
+    @IBOutlet weak var logLabel: UILabel!
     
     var googleHomeTimer: Timer? = nil
     let detector: SmartSpeakerDetector = SmartSpeakerDetector()
@@ -41,9 +42,15 @@ class ViewController: UIViewController, SmartSpeakerDetectorDemoing {
     }
     
     @objc func didBecomeActive(_ notification: Notification) {
+        logLabel.text = nil
         LocalNotificationManager.shared.requestPermissions { _, _ in
             self.startPollingForGoogleHome()
         }
+    }
+    
+    @IBAction func bugButtonTapped(_ sender: UIButton) {
+        logLabel.isHidden = collectionView.isHidden
+        collectionView.isHidden = !logLabel.isHidden
     }
 }
 
@@ -64,6 +71,10 @@ extension ViewController: UICollectionViewDataSource {
 
 extension ViewController: SmartSpeakerDetectorLogger {
     func log(event: String) {
-        print(event)
+        DispatchQueue.main.async {
+            var text = self.logLabel.text ?? ""
+            text += event + "\n\n\n"
+            self.logLabel.text = text
+        }
     }
 }

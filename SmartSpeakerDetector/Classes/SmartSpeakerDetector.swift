@@ -26,13 +26,13 @@ public class SmartSpeakerDetector: NSObject {
     public weak var logger: SmartSpeakerDetectorLogger?
     
     public func detectGoogleHome(_ completion: @escaping (Bool) -> Void) {
+        logger?.log(event: "Starting search for Google Home devices...")
         onDetect = completion
         serviceBrowser.delegate = self
         serviceBrowser.searchForServices(ofType: .googleService, inDomain: .localDomain)
         timeoutTimer = Timer.scheduledTimer(withTimeInterval: 5.0, repeats: false) { [weak self] _ in
             self?.noHomeDetected()
         }
-        logger?.log(event: "Starting search for Google Home devices...")
     }
     
     public func stop(success: Bool) {

@@ -24,6 +24,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="LnK-oC-9Ew">
+                                <rect key="frame" x="20" y="90" width="335" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Xry-CO-Af0">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -108,13 +114,30 @@
                                     <constraint firstAttribute="height" constant="42" id="YTM-qt-ycz"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E36-6W-3vk">
+                                <rect key="frame" x="323" y="20" width="42" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="E36-6W-3vk" secondAttribute="height" multiplier="1:1" id="kPJ-Bq-d4b"/>
+                                </constraints>
+                                <color key="tintColor" red="0.92941176470588238" green="0.40000000000000002" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="bug"/>
+                                <connections>
+                                    <action selector="bugButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LlZ-dN-Eay"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="LnK-oC-9Ew" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="0dG-i7-O1a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E36-6W-3vk" secondAttribute="trailing" constant="10" id="1Yb-gG-0bS"/>
+                            <constraint firstItem="E36-6W-3vk" firstAttribute="centerY" secondItem="1d3-qO-FgG" secondAttribute="centerY" id="4uL-OM-XxG"/>
                             <constraint firstItem="Xry-CO-Af0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6ab-x9-UZv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LnK-oC-9Ew" secondAttribute="trailing" constant="20" id="Pmg-FW-e0A"/>
+                            <constraint firstItem="E36-6W-3vk" firstAttribute="height" secondItem="1d3-qO-FgG" secondAttribute="height" id="Qsr-le-EIq"/>
                             <constraint firstItem="1d3-qO-FgG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Th9-1z-JQ3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xry-CO-Af0" secondAttribute="bottom" id="XZh-fd-PVZ"/>
                             <constraint firstItem="1d3-qO-FgG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bGZ-kn-kw4"/>
+                            <constraint firstItem="LnK-oC-9Ew" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="f9Q-aA-LT2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xry-CO-Af0" secondAttribute="trailing" id="hnH-sh-1BW"/>
                             <constraint firstItem="Xry-CO-Af0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="kWZ-BZ-lWf"/>
                         </constraints>
@@ -123,6 +146,7 @@
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="4se-Fh-Ycf"/>
                     <connections>
                         <outlet property="collectionView" destination="Xry-CO-Af0" id="QvO-01-Clx"/>
+                        <outlet property="logLabel" destination="LnK-oC-9Ew" id="NGh-4X-FbJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -131,6 +155,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bug" width="24" height="24"/>
         <image name="grocrLogo" width="22" height="20"/>
     </resources>
 </document>
