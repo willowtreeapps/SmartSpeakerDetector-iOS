@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A12C3463CA9CD414EDB70C8E /* Pods_SmartSpeakerDetector_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137233D75AA29888B6994AE6 /* Pods_SmartSpeakerDetector_Example.framework */; };
 		A17C6A3254416E941FE22120 /* Pods_SmartSpeakerDetector_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5558E346BFDA098ED0074E /* Pods_SmartSpeakerDetector_Tests.framework */; };
+		C155184820C195030036157C /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C155184720C195030036157C /* Karla-Bold.ttf */; };
+		C155185620C195CE0036157C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C155184920C195CD0036157C /* Assets.xcassets */; };
+		C155185720C195CE0036157C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C155184A20C195CD0036157C /* Models.swift */; };
+		C155185820C195CE0036157C /* SmartSpeakerDetectorOnboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C155184B20C195CD0036157C /* SmartSpeakerDetectorOnboarding.storyboard */; };
+		C155185A20C195CE0036157C /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C155184D20C195CD0036157C /* LocalNotifications.swift */; };
+		C155185B20C195CE0036157C /* SmartSpeakerDetectorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C155184E20C195CD0036157C /* SmartSpeakerDetectorDemo.swift */; };
+		C155185D20C195CE0036157C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C155185220C195CD0036157C /* Main.storyboard */; };
+		C155185E20C195CE0036157C /* SmartSpeakerDetectorOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C155185420C195CD0036157C /* SmartSpeakerDetectorOnboardingViewController.swift */; };
+		C155185F20C195CE0036157C /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C155185520C195CD0036157C /* ProductCollectionViewCell.swift */; };
+		C155186120C198050036157C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C155186020C198050036157C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +42,6 @@
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SmartSpeakerDetector_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartSpeakerDetector_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -47,6 +51,16 @@
 		9C73C02860709F565DFEB89C /* SmartSpeakerDetector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SmartSpeakerDetector.podspec; path = ../SmartSpeakerDetector.podspec; sourceTree = "<group>"; };
 		A276FB7636E3A391F47449B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BED440D32BF8542F24DBF281 /* Pods-SmartSpeakerDetector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSpeakerDetector_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartSpeakerDetector_Example/Pods-SmartSpeakerDetector_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C155184720C195030036157C /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		C155184920C195CD0036157C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C155184A20C195CD0036157C /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C155184B20C195CD0036157C /* SmartSpeakerDetectorOnboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SmartSpeakerDetectorOnboarding.storyboard; sourceTree = "<group>"; };
+		C155184D20C195CD0036157C /* LocalNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
+		C155184E20C195CD0036157C /* SmartSpeakerDetectorDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartSpeakerDetectorDemo.swift; sourceTree = "<group>"; };
+		C155185320C195CD0036157C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		C155185420C195CD0036157C /* SmartSpeakerDetectorOnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartSpeakerDetectorOnboardingViewController.swift; sourceTree = "<group>"; };
+		C155185520C195CD0036157C /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		C155186020C198050036157C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1795F3820C036CC00962097 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
 		C1795F3920C036CC00962097 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,10 +119,15 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				C155184D20C195CD0036157C /* LocalNotifications.swift */,
+				C155184A20C195CD0036157C /* Models.swift */,
+				C155185520C195CD0036157C /* ProductCollectionViewCell.swift */,
+				C155184E20C195CD0036157C /* SmartSpeakerDetectorDemo.swift */,
+				C155185420C195CD0036157C /* SmartSpeakerDetectorOnboardingViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				C155186020C198050036157C /* LaunchScreen.storyboard */,
+				C155185220C195CD0036157C /* Main.storyboard */,
+				C155184B20C195CD0036157C /* SmartSpeakerDetectorOnboarding.storyboard */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for SmartSpeakerDetector";
@@ -119,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACD41AFB9204008FA782 /* Info.plist */,
+				C155184920C195CD0036157C /* Assets.xcassets */,
+				C155184720C195030036157C /* Karla-Bold.ttf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -254,9 +275,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				C155185D20C195CE0036157C /* Main.storyboard in Resources */,
+				C155185820C195CE0036157C /* SmartSpeakerDetectorOnboarding.storyboard in Resources */,
+				C155184820C195030036157C /* Karla-Bold.ttf in Resources */,
+				C155186120C198050036157C /* LaunchScreen.storyboard in Resources */,
+				C155185620C195CE0036157C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +399,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C155185B20C195CE0036157C /* SmartSpeakerDetectorDemo.swift in Sources */,
+				C155185720C195CE0036157C /* Models.swift in Sources */,
+				C155185F20C195CE0036157C /* ProductCollectionViewCell.swift in Sources */,
+				C155185E20C195CE0036157C /* SmartSpeakerDetectorOnboardingViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				C155185A20C195CE0036157C /* LocalNotifications.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,20 +428,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		C155185220C195CD0036157C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				C155185320C195CD0036157C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
