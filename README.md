@@ -12,7 +12,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Features
 
 Library to detect smart speaker devices on local network. 
-Library currently detects Google Home devices using arp table lookup. Since Google Home uses Cast SDK, detection should be reliable. Amazon Alexa support is coming up soon.
+
+Library is using mDNS lookup to find devices on the local network. Since Google Home uses Cast SDK, detection should be reliable. Amazon Alexa support is coming up soon.
 
 ## Requirements
 
