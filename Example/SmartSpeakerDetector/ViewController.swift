@@ -20,7 +20,7 @@ class LightNavigationController: UINavigationController {
 class ViewController: UIViewController, SmartSpeakerDetectorDemoing {
     
     @IBOutlet var collectionView: UICollectionView!
-    @IBOutlet weak var logLabel: UILabel!
+    @IBOutlet var logLabel: UILabel!
     
     var googleHomeTimer: Timer? = nil
     let detector: SmartSpeakerDetector = SmartSpeakerDetector()
