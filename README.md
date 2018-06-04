@@ -63,3 +63,7 @@ Add the following to your project's Cartfile:
 ## License
 
 SmartSpeakerDetector is available under the Apache license. See the LICENSE file for more info.
+
+## Example of Detected Google Home Device
+
+<img src="Example/Artwork/grocr_screenshot.png" alt="screenshot" style="height: 120px;"/>
