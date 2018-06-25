@@ -1,0 +1,22 @@
+{
+  "name": "SmartSpeakerDetector",
+  "version": "0.1.0",
+  "summary": "A short description of SmartSpeakerDetector.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Max Tkach/SmartSpeakerDetector",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Max Tkach": "molotov2k@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Max Tkach/SmartSpeakerDetector.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SmartSpeakerDetector/Classes/**/*"
+}

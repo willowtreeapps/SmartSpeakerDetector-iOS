@@ -1,0 +1,12 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'SmartSpeakerDetector_Example' do
+  pod 'SmartSpeakerDetector', :path => '../'
+
+  target 'SmartSpeakerDetector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

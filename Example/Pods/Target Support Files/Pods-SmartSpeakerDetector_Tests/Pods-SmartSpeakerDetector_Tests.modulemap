@@ -1,0 +1,6 @@
+framework module Pods_SmartSpeakerDetector_Tests {
+  umbrella header "Pods-SmartSpeakerDetector_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
